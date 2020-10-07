@@ -1,0 +1,58 @@
+6
+A
+Frozen
+102
+2013
+Walt Disney Studios
+Burbank
+CA
+A
+Finding Nemo
+100
+2003
+Pixar Animation
+Emeryville
+CA
+A
+Minions
+91
+2015
+Illumination
+Santa Monica
+CA
+A
+The Lego Movie
+100
+2014
+Village Roadshow Pictures
+Los Angeles
+CA
+A
+The Lego Movie 2
+106
+2019
+Warner Animation Group
+Burbank
+CA
+L
+P
+L
+O
+L
+N
+L
+R
+The Lego Movie
+2015
+R
+The Lego Movie 2
+2019
+L
+P
+L
+N
+L
+O
+L
+Q
+

@@ -1,0 +1,186 @@
+Choice		Action
+------		------
+A		Add Movie
+C		Create MovieArrangement
+D		Search by Movie
+E		Search by Production
+L		List Movies
+N		Sort by Movie Titles
+O		Sort by Movie Years
+P		Sort by Productions
+Q		Quit
+R		Remove by Movie
+T		Close MovieArrangement
+U		Write Text to File
+V		Read Text from File
+W		Serialize MovieArrangement to File
+X		Deserialize MovieArrangement from File
+?		Display Help
+
+Please enter a maximum number of movies
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+
+
+Movie Title:		Field of Dreams
+Movie Length:		107
+Movie Year:		1989
+Movie Production:	Gordon Company at Thomasville,NC
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?
+Please enter movie title to search:
+Please enter movie year to search:
+movie E.T. in 1982 found
+What action would you like to perform?
+Please enter movie title to search:
+Please enter movie year to search:
+movie Field of Dreams in 1988 not found
+What action would you like to perform?
+Please enter movie title to search:
+Please enter movie year to search:
+movie Toy Story in 2000 not found
+What action would you like to perform?
+Please enter the name of a production company to search:
+Please enter the city of a production company to search:
+Please enter the state of a production company to search:
+production MGM at Hollywood,CA found
+What action would you like to perform?
+Please enter the name of a production company to search:
+Please enter the city of a production company to search:
+Please enter the state of a production company to search:
+production Universal Pictures at Hollywood,CA not found
+What action would you like to perform?
+
+
+Movie Title:		Field of Dreams
+Movie Length:		107
+Movie Year:		1989
+Movie Production:	Gordon Company at Thomasville,NC
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?
+Please enter movie title to remove:
+Please enter movie year to remove:
+movie Lassie in 1945 not removed
+What action would you like to perform?
+
+
+Movie Title:		Field of Dreams
+Movie Length:		107
+Movie Year:		1989
+Movie Production:	Gordon Company at Thomasville,NC
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?
+Please enter movie title to remove:
+Please enter movie year to remove:
+movie Field of Dreams in 1989 removed
+What action would you like to perform?
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?
+Please enter a file name to write:
+arrange1.dat was written
+What action would you like to perform?
+movie arrangement system closed
+What action would you like to perform?
+
+no movie
+
+What action would you like to perform?
+Please enter a file name to read:
+manage1.dat was not found
+What action would you like to perform?
+Please enter a file name to read:
+arrange1.dat was read
+What action would you like to perform?
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?

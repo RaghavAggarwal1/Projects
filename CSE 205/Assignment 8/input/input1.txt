@@ -1,0 +1,60 @@
+8
+A
+Field of Dreams
+107
+1989
+Gordon Company
+Thomasville
+NC
+A
+E.T.
+115
+1982
+Universal Pictures
+Universal City
+CA
+A
+Lassie
+89
+1943
+MGM
+Hollywood
+CA
+L
+D
+E.T.
+1982
+D
+Field of Dreams
+1988
+D
+Toy Story
+2000
+E
+MGM
+Hollywood
+CA
+E
+Universal Pictures
+Hollywood
+CA
+L
+R
+Lassie
+1945
+L
+R
+Field of Dreams
+1989
+L
+W
+arrange1.dat
+T
+L
+X
+manage1.dat
+X
+arrange1.dat
+L
+Q
+

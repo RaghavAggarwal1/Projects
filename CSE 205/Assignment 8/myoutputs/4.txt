@@ -1,0 +1,151 @@
+Choice		Action
+------		------
+A		Add Movie
+C		Create MovieArrangement
+D		Search by Movie
+E		Search by Production
+L		List Movies
+N		Sort by Movie Titles
+O		Sort by Movie Years
+P		Sort by Productions
+Q		Quit
+R		Remove by Movie
+T		Close MovieArrangement
+U		Write Text to File
+V		Read Text from File
+W		Serialize MovieArrangement to File
+X		Deserialize MovieArrangement from File
+?		Display Help
+
+Please enter a maximum number of movies
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+
+
+Movie Title:		Toy Story 4
+Movie Length:		100
+Movie Year:		2019
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+
+What action would you like to perform?
+Please enter a new maximum number of movies:
+What action would you like to perform?
+
+no movie
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie not added
+What action would you like to perform?
+
+
+Movie Title:		Kung Fu Panda
+Movie Length:		92
+Movie Year:		2008
+Movie Production:	DreamWorks Animation at Glendale,CA
+
+
+Movie Title:		Scooby-Doo
+Movie Length:		86
+Movie Year:		2002
+Movie Production:	Warner Bros at Hollywood,CA
+
+
+What action would you like to perform?
+sorted by productions
+What action would you like to perform?
+
+
+Movie Title:		Kung Fu Panda
+Movie Length:		92
+Movie Year:		2008
+Movie Production:	DreamWorks Animation at Glendale,CA
+
+
+Movie Title:		Scooby-Doo
+Movie Length:		86
+Movie Year:		2002
+Movie Production:	Warner Bros at Hollywood,CA
+
+
+What action would you like to perform?
+sorted by movie years
+What action would you like to perform?
+
+
+Movie Title:		Scooby-Doo
+Movie Length:		86
+Movie Year:		2002
+Movie Production:	Warner Bros at Hollywood,CA
+
+
+Movie Title:		Kung Fu Panda
+Movie Length:		92
+Movie Year:		2008
+Movie Production:	DreamWorks Animation at Glendale,CA
+
+
+What action would you like to perform?

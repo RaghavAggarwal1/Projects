@@ -1,0 +1,326 @@
+Choice		Action
+------		------
+A		Add Movie
+C		Create MovieArrangement
+D		Search by Movie
+E		Search by Production
+L		List Movies
+N		Sort by Movie Titles
+O		Sort by Movie Years
+P		Sort by Productions
+Q		Quit
+R		Remove by Movie
+T		Close MovieArrangement
+U		Write Text to File
+V		Read Text from File
+W		Serialize MovieArrangement to File
+X		Deserialize MovieArrangement from File
+?		Display Help
+
+Please enter a maximum number of movies
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+movie added
+What action would you like to perform?
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		The Lego Movie 2
+Movie Length:		106
+Movie Year:		2019
+Movie Production:	Warner Animation Group at Burbank,CA
+
+
+What action would you like to perform?
+sorted by productions
+What action would you like to perform?
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		The Lego Movie 2
+Movie Length:		106
+Movie Year:		2019
+Movie Production:	Warner Animation Group at Burbank,CA
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+What action would you like to perform?
+sorted by movie years
+What action would you like to perform?
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+Movie Title:		The Lego Movie 2
+Movie Length:		106
+Movie Year:		2019
+Movie Production:	Warner Animation Group at Burbank,CA
+
+
+What action would you like to perform?
+sorted by movie titles
+What action would you like to perform?
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		The Lego Movie 2
+Movie Length:		106
+Movie Year:		2019
+Movie Production:	Warner Animation Group at Burbank,CA
+
+
+What action would you like to perform?
+Please enter movie title to remove:
+Please enter movie year to remove:
+movie The Lego Movie in 2015 not removed
+What action would you like to perform?
+Please enter movie title to remove:
+Please enter movie year to remove:
+movie The Lego Movie 2 in 2019 removed
+What action would you like to perform?
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+What action would you like to perform?
+sorted by productions
+What action would you like to perform?
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+What action would you like to perform?
+sorted by movie titles
+What action would you like to perform?
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+What action would you like to perform?
+sorted by movie years
+What action would you like to perform?
+
+
+Movie Title:		Finding Nemo
+Movie Length:		100
+Movie Year:		2003
+Movie Production:	Pixar Animation at Emeryville,CA
+
+
+Movie Title:		Frozen
+Movie Length:		102
+Movie Year:		2013
+Movie Production:	Walt Disney Studios at Burbank,CA
+
+
+Movie Title:		The Lego Movie
+Movie Length:		100
+Movie Year:		2014
+Movie Production:	Village Roadshow Pictures at Los Angeles,CA
+
+
+Movie Title:		Minions
+Movie Length:		91
+Movie Year:		2015
+Movie Production:	Illumination at Santa Monica,CA
+
+
+What action would you like to perform?

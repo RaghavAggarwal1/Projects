@@ -1,0 +1,54 @@
+5
+A
+Toy Story 4
+100
+2019
+Pixar Animation
+Emeryville
+CA
+A
+E.T.
+115
+1982
+Universal Pictures
+Universal City
+CA
+A
+Lassie
+89
+1943
+MGM
+Hollywood
+CA
+L
+C
+2
+L
+A
+Kung Fu Panda
+92
+2008
+DreamWorks Animation
+Glendale
+CA
+A
+Scooby-Doo
+86
+2002
+Warner Bros
+Hollywood
+CA
+A
+Toy Story 3
+104
+2010
+Pixar Animation
+Emeryville
+CA
+L
+P
+L
+O
+L
+Q
+

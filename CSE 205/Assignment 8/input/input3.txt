@@ -1,0 +1,75 @@
+10
+A
+Stuart Little
+84
+1999
+Columbia Pictures Corporation
+Hollywood
+CA
+A
+Toy Story 2
+95
+1999
+Pixar Animation
+Emeryville
+CA
+A
+Field of Dreams
+107
+1989
+Gordon Company
+Thomasville
+NC
+A
+Toy Story
+81
+1995
+Pixar Animation
+Emeryville
+CA
+L
+D
+Toy Story 1
+1995
+D
+Toy Story
+1995
+E
+Pixar Animation
+Emeryville
+CA
+L
+O
+L
+P
+L
+A
+Shrek
+90
+2001
+DreamWorks Animation
+Glendale
+CA
+L
+D
+Toy Story 2
+1998
+L
+D
+Shrek
+2001
+L
+D
+Toy Story 6
+2000
+L
+U
+sample1.txt
+Writing code
+V
+sample3.txt
+V
+sample1.txt
+L
+Q
+

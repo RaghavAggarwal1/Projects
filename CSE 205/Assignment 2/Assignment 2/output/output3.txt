@@ -1,0 +1,4 @@
+The minimum integer is -90
+The smallest even integer in the sequence is -90
+The count of negative integers in the sequence is 4
+The sum of odd integers is 657

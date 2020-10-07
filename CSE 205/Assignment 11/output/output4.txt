@@ -1,0 +1,236 @@
+Choice		Action
+------		------
+C		Specify Problem Parameters
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please specify how many characters will be used (the maximum is 26):
+Please specify how many supporting stacks to use:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Start Stack Content:
+[a, l, j, k, b, c, d, e, f, g, h, i]
+Move the character i from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character h from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character g from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character f from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character e from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character d from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character c from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character b from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c, b]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character k from start stack to supporting stack#1
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c, b]
+Supporting Stack 1: [k]
+Supporting Stack 2: []
+
+Move the character j from start stack to supporting stack#1
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c, b]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: []
+
+Move the character l from start stack to supporting stack#2
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c, b]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character a from start stack to final stack
+Move character b from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d, c]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character c from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e, d]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character d from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f, e]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character e from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g, f]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character f from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h, g]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character g from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i, h]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character h from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: [i]
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character i from supporting stack#0 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: []
+Supporting Stack 1: [k, j]
+Supporting Stack 2: [l]
+
+Move character j from supporting stack#1 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: []
+Supporting Stack 1: [k]
+Supporting Stack 2: [l]
+
+Move character k from supporting stack#1 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: []
+Supporting Stack 1: []
+Supporting Stack 2: [l]
+
+Move character l from supporting stack#2 to final stack
+Supporting Stack Contents:
+
+Supporting Stack 0: []
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Final Stack Content:
+[a, b, c, d, e, f, g, h, i, j, k, l]
+
+organization completed
+What action would you like to perform?
+Please specify how many characters will be used (the maximum is 26):
+Please specify how many supporting stacks to use:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Please enter a character:
+Start Stack Content:
+[b, a, k, i, j, h, e, d, c, g, f]
+Move the character f from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [f]
+Supporting Stack 1: []
+Supporting Stack 2: []
+
+Move the character g from start stack to supporting stack#1
+Supporting Stack Contents:
+
+Supporting Stack 0: [f]
+Supporting Stack 1: [g]
+Supporting Stack 2: []
+
+Move the character c from start stack to supporting stack#0
+Supporting Stack Contents:
+
+Supporting Stack 0: [f, c]
+Supporting Stack 1: [g]
+Supporting Stack 2: []
+
+Move the character d from start stack to supporting stack#1
+Supporting Stack Contents:
+
+Supporting Stack 0: [f, c]
+Supporting Stack 1: [g, d]
+Supporting Stack 2: []
+
+Move the character e from start stack to supporting stack#2
+Supporting Stack Contents:
+
+Supporting Stack 0: [f, c]
+Supporting Stack 1: [g, d]
+Supporting Stack 2: [e]
+
+
+organization not completed
+What action would you like to perform?

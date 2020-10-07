@@ -1,0 +1,53 @@
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Lassie
+Movie Length:		89
+Movie Year:		1943
+Movie Production:	MGM at Hollywood,CA
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Scooby-Doo
+Movie Length:		86
+Movie Year:		2002
+Movie Production:	Warner Bros at Hollywood,CA
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Stuart Little
+Movie Length:		84
+Movie Year:		1999
+Movie Production:	Columbia Pictures Corporation at Hollywood,CA
+
+What action would you like to perform?

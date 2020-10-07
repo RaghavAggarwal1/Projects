@@ -1,0 +1,48 @@
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Shrek
+Movie Length:		90
+Movie Year:		2001
+Movie Production:	DreamWorks Animation at Glendate,CA
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Toy Story
+Movie Length:		81
+Movie Year:		1995
+Movie Production:	Pixar Animation at Emeryville,CA
+
+What action would you like to perform?
+Unknown action
+What action would you like to perform?

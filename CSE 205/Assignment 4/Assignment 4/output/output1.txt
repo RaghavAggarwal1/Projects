@@ -1,0 +1,38 @@
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Field of Dreams
+Movie Length:		107
+Movie Year:		1989
+Movie Production:	Gordon Company at Thomasville,NC
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		E.T.
+Movie Length:		115
+Movie Year:		1982
+Movie Production:	Universal Pictures at Universal City,CA
+
+What action would you like to perform?

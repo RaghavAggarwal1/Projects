@@ -1,0 +1,31 @@
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter the Movie information:
+Enter its title:
+Enter its length:
+Enter its year:
+Enter its production company name:
+Enter its production company's city:
+Enter its production company's state:
+What action would you like to perform?
+
+Movie Title:		Kung Fu Panda
+Movie Length:		92
+Movie Year:		2008
+Movie Production:	DreamWorks Animation at Glendale,CA
+
+What action would you like to perform?
+Choice		Action
+------		------
+A		Add Movie
+D		Display Movie
+Q		Quit
+?		Display Help
+
+What action would you like to perform?

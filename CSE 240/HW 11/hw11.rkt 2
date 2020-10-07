@@ -1,0 +1,102 @@
+; Raghav Aggarwal
+; CSE240 HW11 Spring 2020
+; NOTE : make sure to select R5RS in the bottom left corner before running code
+
+; Q1 (5 points)
+;1.1 9 - 2 + 5
+(write (+ (- 9 2) 5))
+(newline)
+;1.2 5 * ( 6 + 12 + 5 ) – 25
+(write (-(*(+ (+ 6 12) 5) 5) 25))
+(newline)
+;1.3 7 * (( 5 - ( 1 * 3 )) + ( 2 * 4 ) )
+(write (*(+(- 5(* 1 3)) (* 2 4)) 7))
+(newline)
+;1.4 3 * ( 4 + ( ( ( 6 * 6 ) + ( 6 * 6 ) ) / ( 10 + 2 ) ) )
+(write(*(+(/(+(* 6 6)(* 6 6))(+ 10 2))4)3))
+(newline)
+;1.5 ( ( ( ( ( ( 4 + 6 ) * ( 6 + 4 ) ) / 2 ) / 2 ) – 5 ) / 2 ) + ( ( ( ( 4 * 5 ) + ( 5 * 4 ) ) / 2 ) + ( 4 * 5 ) )
+(write (+(/(-(/(/(*(+ 4 6)(+ 6 4))2)2)5)2) (+(/(+(* 4 5)(* 5 4))2)(* 4 5))) )
+
+
+; Q2 (5 points)
+(define Add (lambda (a b)
+  (+ a b) ))
+(newline)
+(display (Add 20 30))
+; Q3 (10 points)
+(define Square (lambda (x)
+                 ;(n+1)^2 = n^2 + 2n + 1
+                 ; n^2 = (n+1)^2 - 2n - 1
+                (if (= x 1)
+                    1 ;Stopping condition
+              ;adding the above formula by recalling Add func
+                 (Add (Add(Add(abs x) (abs x)) -1) (Square(Add (abs x) -1)))
+                 )
+                 ))
+
+
+(newline)
+(display(Square 5))
+(newline)
+(display(Square -7))
+(newline)
+; Q4 (5 points)
+(define ReadForSquare (lambda ()
+  (Square (read)) ;recalling square func
+  ))
+
+; Q5 (10 points)
+
+(define DiffSquares (lambda ()
+                      ;ABS to make value positive
+                      (abs(- ( ReadForSquare)( ReadForSquare)))
+  ))
+
+
+; Q6 (5 points)
+(define AddLet (lambda (x y z)
+                 ;using let to define a b c
+  (let ((a x)(b y)(c z))
+    (+(+ a b) c)
+    )
+  ))
+(newline)
+(display(AddLet 60 40 5))
+
+
+; Q7 (5 points)
+
+((lambda (x y z)
+   (+(+ x y) z)
+   )(read)(read)(read)) ;asking values to make sum
+
+;Q8: (10 points)
+
+(define sumOdds 
+    (lambda (lst)
+      ;checking if list is over or not
+        (if
+         ; null from end
+         (null? (cdr lst))
+            (if
+             ;null from first end
+             (odd? (car lst))
+                (car lst)
+                ;if null than adding 0
+                0
+            )
+            ;if not null
+            (if
+             ;if no is odd
+             (odd? (car lst))
+             ;adding the no
+             ;recursive calling the later on of the list by passing list removing the first member
+                (Add (sumOdds (cdr lst)) (car lst) )
+                (Add (sumOdds (cdr lst)) 0)
+                )
+            )
+      )
+  )
+
+(display  (sumOdds '(1 3 4 5 6 -7)) )

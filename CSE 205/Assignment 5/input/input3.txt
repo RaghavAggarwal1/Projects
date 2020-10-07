@@ -1,0 +1,9 @@
+A
+FullTime:Alex:Green:000001:200000:10000
+?
+A
+PartTime:Albert:Smith:200005:33.43:40
+L
+C
+L
+Q

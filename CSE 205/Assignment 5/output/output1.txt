@@ -1,0 +1,45 @@
+Choice		Action
+------		------
+A		Add Employee
+C		Compute Pay
+D		Search for Employee
+L		List Employees
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+no employee
+What action would you like to perform?
+Please enter some employee information to add:
+What action would you like to perform?
+
+Part Time Employee:
+First name:		Sam
+Last name:		Brown
+Employee ID:		000002
+Pay Amount:		$0.00
+HourlyRate:		$25.25
+Hours:			10
+
+What action would you like to perform?
+Please enter some employee information to add:
+What action would you like to perform?
+
+Part Time Employee:
+First name:		Sam
+Last name:		Brown
+Employee ID:		000002
+Pay Amount:		$0.00
+HourlyRate:		$25.25
+Hours:			10
+
+
+Full Time Employee:
+First name:		Mary
+Last name:		Williams
+Employee ID:		200005
+Pay Amount:		$0.00
+Salary:			$400,000.00
+Bonus:			$50,000.00
+
+What action would you like to perform?

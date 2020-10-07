@@ -1,0 +1,50 @@
+Choice		Action
+------		------
+A		Add Employee
+C		Compute Pay
+D		Search for Employee
+L		List Employees
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter some employee information to add:
+What action would you like to perform?
+Please enter some employee information to add:
+What action would you like to perform?
+Please enter some employee information to add:
+What action would you like to perform?
+
+Part Time Employee:
+First name:		Snow
+Last name:		White
+Employee ID:		000010
+Pay Amount:		$0.00
+HourlyRate:		$30.75
+Hours:			15
+
+
+Full Time Employee:
+First name:		Charlie
+Last name:		Brown
+Employee ID:		500001
+Pay Amount:		$0.00
+Salary:			$25,000.00
+Bonus:			$2,000.00
+
+
+Full Time Employee:
+First name:		Bob
+Last name:		Sponge
+Employee ID:		111111
+Pay Amount:		$0.00
+Salary:			$34,000.00
+Bonus:			$1,000.00
+
+What action would you like to perform?
+Please enter an employeeID to search:
+Employee not found
+What action would you like to perform?
+Please enter an employeeID to search:
+Employee found
+What action would you like to perform?

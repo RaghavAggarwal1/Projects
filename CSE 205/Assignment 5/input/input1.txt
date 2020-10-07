@@ -1,0 +1,8 @@
+L
+A
+PartTime:Sam:Brown:000002:25.25:10
+L
+A
+FullTime:Mary:Williams:200005:400000:50000
+L
+Q

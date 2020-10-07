@@ -1,0 +1,12 @@
+A
+PartTime:Snow:White:000010:30.75:15
+A
+FullTime:Charlie:Brown:500001:25000:2000
+A
+FullTime:Bob:Sponge:111111:34000:1000
+L
+D
+500002
+D
+500001
+Q

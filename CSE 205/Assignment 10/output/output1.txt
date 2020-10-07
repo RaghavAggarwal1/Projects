@@ -1,0 +1,73 @@
+Choice		Action
+------		------
+A		Add String
+B		Add Strings
+C		Count String
+G		Get String
+E		Check Empty
+F		Find Largest And Remove
+L		List Strings
+Q		Quit
+R		Reverse Last Few Strings
+?		Display Help
+
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Grape }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Melon Grape }
+What action would you like to perform?
+The linked list is not empty
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Melon Grape Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Peach Melon Grape Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Peach Grape Melon Grape Apple }
+What action would you like to perform?
+The linked list is not empty
+What action would you like to perform?
+Please enter a string to count:
+The string Grape appears 2 time(s)
+What action would you like to perform?
+Please enter a string to count:
+The string Banana appears 0 time(s)
+What action would you like to perform?
+{ Peach Grape Melon Grape Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+The index is out of bounds
+What action would you like to perform?
+{ Peach Grape Melon Grape Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Peach Grape Melon Grape Apple Kiwi }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+The index is out of bounds
+What action would you like to perform?
+{ Peach Grape Melon Grape Apple Kiwi }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Lemon Peach Grape Melon Grape Apple Kiwi }
+What action would you like to perform?

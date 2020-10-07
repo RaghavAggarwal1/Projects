@@ -1,0 +1,4 @@
+The minimum number is -34
+The smallest even integer in the sequence is -34
+The count of negative integers in the sequence is 6
+The sum of numbers that are divisible by 3 is 0

@@ -1,0 +1,74 @@
+Choice		Action
+------		------
+A		Add String
+B		Add Strings
+C		Count String
+G		Get String
+E		Check Empty
+F		Find Largest And Remove
+L		List Strings
+Q		Quit
+R		Reverse Last Few Strings
+?		Display Help
+
+What action would you like to perform?
+The linked list is empty
+What action would you like to perform?
+{ }
+What action would you like to perform?
+Please enter a string to count:
+The string Apple appears 0 time(s)
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+The index is out of bounds
+What action would you like to perform?
+{ }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Melon Kiwi Orange Olive Pear Lemon Guava Apple Potato Grape }
+What action would you like to perform?
+The largest string Potato was removed
+What action would you like to perform?
+{ Melon Kiwi Orange Olive Pear Lemon Guava Apple Grape }
+What action would you like to perform?
+The largest string Pear was removed
+What action would you like to perform?
+{ Melon Kiwi Orange Olive Lemon Guava Apple Grape }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Melon Pear Kiwi Orange Olive Lemon Guava Apple Grape }
+What action would you like to perform?

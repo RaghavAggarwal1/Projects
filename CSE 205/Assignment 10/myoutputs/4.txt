@@ -1,0 +1,80 @@
+Choice		Action
+------		------
+A		Add String
+B		Add Strings
+C		Count String
+G		Get String
+E		Check Empty
+F		Find Largest And Remove
+L		List Strings
+Q		Quit
+R		Reverse Last Few Strings
+?		Display Help
+
+What action would you like to perform?
+{ }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Mango Tomato Guava Banana }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Mango Tomato Guava Lime Lime Lime Lime Lime Banana }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Banana Banana Banana Banana Mango Tomato Guava Lime Lime Lime Lime Lime Banana }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Banana Banana Banana Banana Mango Tomato Tomato Tomato Guava Lime Lime Lime Lime Lime Banana }
+What action would you like to perform?
+Please enter a string to count:
+The string Banana appears 5 time(s)
+What action would you like to perform?
+Please enter a string to count:
+The string Lemon appears 0 time(s)
+What action would you like to perform?
+Please enter an index:
+The string at the index 5: Tomato
+What action would you like to perform?
+Please enter an index:
+The index is out of bounds
+What action would you like to perform?
+{ Banana Banana Banana Banana Mango Tomato Tomato Tomato Guava Lime Lime Lime Lime Lime Banana }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Banana Banana Lime Banana Banana Mango Tomato Tomato Tomato Guava Lime Lime Lime Lime Lime Banana }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Banana Banana Lime Banana Banana Mango Banana Lime Lime Lime Lime Lime Guava Tomato Tomato Tomato }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Banana Banana Lime Banana Banana Mango Banana Lime Lime Lime Lime Tomato Tomato Tomato Guava Lime }
+What action would you like to perform?
+Please enter a string to count:
+The string Lime appears 6 time(s)
+What action would you like to perform?
+{ Banana Banana Lime Banana Banana Mango Banana Lime Lime Lime Lime Tomato Tomato Tomato Guava Lime }
+What action would you like to perform?

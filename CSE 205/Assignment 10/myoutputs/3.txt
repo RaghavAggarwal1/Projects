@@ -1,0 +1,84 @@
+Choice		Action
+------		------
+A		Add String
+B		Add Strings
+C		Count String
+G		Get String
+E		Check Empty
+F		Find Largest And Remove
+L		List Strings
+Q		Quit
+R		Reverse Last Few Strings
+?		Display Help
+
+What action would you like to perform?
+There is no largest string
+What action would you like to perform?
+Please enter an index:
+The index is out of bounds
+What action would you like to perform?
+{ }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Apple Apple Apple Apple Apple Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Apple Apple Orange Orange Orange Apple Apple Apple Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+{ Apple Apple Orange Strawberry Strawberry Strawberry Strawberry Strawberry Orange Orange Apple Apple Apple Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Apple Apple Orange Strawberry Strawberry Banana Strawberry Strawberry Strawberry Orange Orange Apple Apple Apple Apple }
+What action would you like to perform?
+The largest string Strawberry was removed
+What action would you like to perform?
+{ Apple Apple Orange Banana Orange Orange Apple Apple Apple Apple }
+What action would you like to perform?
+The linked list is not empty
+What action would you like to perform?
+The largest string Orange was removed
+What action would you like to perform?
+{ Apple Apple Banana Apple Apple Apple Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+Please specify how many times to add:
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Apple Apple Orange Banana Apple Potato Potato Apple Apple Apple }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Apple Apple Orange Banana Apple Apple Apple Apple Potato Potato }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Apple Apple Orange Banana Apple Apple Apple Apple Potato Potato }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Potato Potato Apple Apple Apple Apple Banana Orange Apple Apple }
+What action would you like to perform?
+Please enter a string to add:
+Please enter its index:
+What action would you like to perform?
+{ Potato Potato Apple Apple Apple Apple Banana Orange Apple Tomato Apple }
+What action would you like to perform?
+Please enter a number of elements to reverse from the end:
+What action would you like to perform?
+{ Potato Potato Apple Apple Apple Apple Banana Apple Tomato Apple Orange }
+What action would you like to perform?

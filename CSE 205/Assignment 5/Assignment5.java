@@ -7,7 +7,8 @@
 //               enter the next choice until the choice of 'Q' (Quit) is
 //               entered.
 
-import java.io.*;         //to use InputStreamReader and BufferedReader
+import io.github.pixee.security.BoundedLineReader;
+import java.io.*;
 import java.util.*;       //to use ArrayList
 
 import javax.lang.model.util.ElementScanner6;
@@ -33,7 +34,7 @@ public class Assignment5
        do
         {
          System.out.println("What action would you like to perform?");
-         line = stdin.readLine().trim();
+         line = BoundedLineReader.readLine(stdin, 5_000_000).trim();
          input1 = line.charAt(0);
          input1 = Character.toUpperCase(input1);
 
@@ -43,7 +44,7 @@ public class Assignment5
             {
              case 'A':   //Add Employee
                System.out.print("Please enter some employee information to add:\n");
-               inputInfo = stdin.readLine().trim();
+               inputInfo = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                employeeList.add(EmployeeParser.parseStringToEmployee(inputInfo));
                break;
                     
@@ -56,7 +57,7 @@ public class Assignment5
                break;
              case 'D':   //Search for Employee
                System.out.print("Please enter an employeeID to search:\n");
-               String id = stdin.readLine().trim();
+               String id = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                for(int i = 0 ; i < employeeList.size() ; i++)
                {
                  if(id.equals(employeeList.get(i).getEmployeeId()))

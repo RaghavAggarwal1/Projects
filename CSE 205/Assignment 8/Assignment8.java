@@ -7,6 +7,7 @@
 //               enter the next choice until the choice of 'Q' (Quit) is
 //               entered. 
 
+import io.github.pixee.security.ObjectInputFilters;
 import java.io.*;
 import java.util.Scanner;
 
@@ -228,7 +229,8 @@ public class Assignment8
                                     // Reading the object from the file 
                                     FileInputStream file = new FileInputStream(filename); 
                                     ObjectInputStream in1 = new ObjectInputStream(file); 
-                                    
+                                    ObjectInputFilters.enableObjectFilterIfUnprotected(in1);
+
                                     //deserialization of object 
                                     mov2 = (MovieArrangement)in1.readObject(); 
                                     arrange1 = mov2;

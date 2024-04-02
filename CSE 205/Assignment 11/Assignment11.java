@@ -6,6 +6,7 @@
 //        and performs the chosen task. It will keep asking a user to
 //      enter the next choice until the choice of 'Q' (Quit) is entered.
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.*;
 
 public class Assignment11
@@ -23,7 +24,7 @@ public class Assignment11
        do  // will ask for user input
         {
          System.out.println("What action would you like to perform?");
-         line = stdin.readLine(); //reading the line
+         line = BoundedLineReader.readLine(stdin, 5_000_000); //reading the line
          input1 = line.charAt(0); //taking the char at first position of the line
          input1 = Character.toUpperCase(input1);  //converting that char to uppercase
 
@@ -36,10 +37,10 @@ public class Assignment11
                try
                 {
                  System.out.print("Please specify how many characters will be used (the maximum is 26):\n");
-                 int stackSize = Integer.parseInt(stdin.readLine().trim());
+                 int stackSize = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
 
                  System.out.print("Please specify how many supporting stacks to use:\n");
-                 int numberOfSupportingStacks = Integer.parseInt(stdin.readLine().trim());
+                 int numberOfSupportingStacks = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
 
                  if (stackSize > 0 && stackSize <= 26 && numberOfSupportingStacks > 0)
                   {
@@ -50,7 +51,7 @@ public class Assignment11
                    for (int i = 0; i < stackSize; i++)
                     {
                       System.out.print("Please enter a character:\n");
-                      char character1 = stdin.readLine().trim().charAt(0);
+                      char character1 = BoundedLineReader.readLine(stdin, 5_000_000).trim().charAt(0);
                       organizer.addCharacterToStack(character1);
                     }
 

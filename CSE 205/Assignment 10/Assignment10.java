@@ -7,6 +7,7 @@
 //               enter the next choice until the choice of 'Q' (Quit) is
 //               entered.
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.*;
 
 public class Assignment10
@@ -33,7 +34,7 @@ public class Assignment10
          do
           {
            System.out.print("What action would you like to perform?\n");
-           line = stdin.readLine().trim();  //read a line
+           line = BoundedLineReader.readLine(stdin, 5_000_000).trim();  //read a line
            input1 = line.charAt(0);
            input1 = Character.toUpperCase(input1);
 
@@ -43,9 +44,9 @@ public class Assignment10
               {
                case 'A':   //Add String
                   System.out.print("Please enter a string to add:\n");
-                  String str1 = stdin.readLine().trim();
+                  String str1 = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                   System.out.print("Please enter its index:\n");
-                  int index = Integer.parseInt(stdin.readLine().trim());
+                  int index = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
                   try
                    {
                      list1.addElementAt(str1, index);
@@ -57,11 +58,11 @@ public class Assignment10
                   break;
                case 'B':   //Add Some Strings
                   System.out.print("Please enter a string to add:\n");
-                  String str2 = stdin.readLine().trim();
+                  String str2 = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                   System.out.print("Please enter its index:\n");
-                  int index2 = Integer.parseInt(stdin.readLine().trim());
+                  int index2 = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
                   System.out.print("Please specify how many times to add:\n");
-                  int howMany = Integer.parseInt(stdin.readLine().trim());
+                  int howMany = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
                   try
                    {
                       list1.addSomeElementsAt(str2, index2, howMany);
@@ -73,13 +74,13 @@ public class Assignment10
                       break;
                case 'C':   //Count a specific string
                   System.out.print("Please enter a string to count:\n");
-                  String str3 = stdin.readLine().trim();
+                  String str3 = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                   int count = list1.countHowMany(str3);
                   System.out.print("The string " + str3 + " appears " + count + " time(s)\n");
                  break;
                case 'G':   //Get a string at some index
                   System.out.print("Please enter an index:\n");
-                  int index4 = Integer.parseInt(stdin.readLine().trim());
+                  int index4 = Integer.parseInt(BoundedLineReader.readLine(stdin, 5_000_000).trim());
                   try
                     {
                         String str4 = list1.getElement(index4);
@@ -111,7 +112,7 @@ public class Assignment10
                   break;
                case 'R':  //Reverse Strings from End
                   System.out.print("Please enter a number of elements to reverse from the end:\n");
-                  inputInfo = stdin.readLine().trim();
+                  inputInfo = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                   int howManyR = Integer.parseInt(inputInfo);
                   list1.reverseLastSome(howManyR);
                   break;

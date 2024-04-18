@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws SQLException {
             Connection con = SqlConnector.getConnection();
             String query = null;
-          if(args[0].equals("addProduct") ){
+          if("addProduct".equals(args[0]) ){
                 System.out.println(" you can see our products ");
                 Product product = new Product();
                 String productName = args[1];

@@ -4,6 +4,7 @@
 //      Lecture: MW 4:35-5:50
 //  Description: Class implements recursion.
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.*;
 
 //import javax.swing.text.StyleContext.SmallAttributeSet;
@@ -76,7 +77,7 @@ public class Assignment9 {
         int currentIn = 0;
         do
         {
-            currentIn = Integer.parseInt(scan.readLine());  //Takes input from user
+            currentIn = Integer.parseInt(BoundedLineReader.readLine(scan, 5_000_000));  //Takes input from user
             int[] temp = new int[arr.length+1]; //Creates new array with size 1 big so that inut can be added at the last
             for(int i = 0 ; i < arr.length ; i++)   
             {

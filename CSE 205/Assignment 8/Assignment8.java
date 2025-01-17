@@ -7,6 +7,7 @@
 //               enter the next choice until the choice of 'Q' (Quit) is
 //               entered. 
 
+import io.github.pixee.security.BoundedLineReader;
 import java.io.*;
 import java.util.Scanner;
 
@@ -36,14 +37,14 @@ public class Assignment8
            BufferedReader stdin = new BufferedReader (isr);
            
            System.out.print("Please enter a maximum number of movies\n");
-           String maxStr = stdin.readLine().trim(); //read in the max number as a string
+           String maxStr = BoundedLineReader.readLine(stdin, 5_000_000).trim(); //read in the max number as a string
            int max = Integer.parseInt(maxStr);
            arrange1 = new MovieArrangement(max);
 
            do
            {
                System.out.print("What action would you like to perform?\n");
-               line = stdin.readLine().trim();  //read a line
+               line = BoundedLineReader.readLine(stdin, 5_000_000).trim();  //read a line
                input1 = line.charAt(0);
                input1 = Character.toUpperCase(input1);
 
@@ -54,19 +55,19 @@ public class Assignment8
                        case 'A':   //Add Movie
                            System.out.print("Please enter the Movie information:\n");
                            System.out.print("Enter its title:\n");
-                           title = stdin.readLine().trim();
+                           title = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Enter its length:\n");
-                           lengthStr = stdin.readLine().trim();
+                           lengthStr = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            length = Integer.parseInt(lengthStr);
                            System.out.print("Enter its year:\n");
-                           yearStr = stdin.readLine().trim();
+                           yearStr = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            year = Integer.parseInt(yearStr);
                            System.out.print("Enter its production company name:\n");
-                           prodName = stdin.readLine().trim();
+                           prodName = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Enter its production company's city:\n");
-                           prodCity = stdin.readLine().trim();
+                           prodCity = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Enter its production company's state:\n");
-                           prodState = stdin.readLine().trim();
+                           prodState = BoundedLineReader.readLine(stdin, 5_000_000).trim();
 
                            operation = arrange1.addMovie(title, length, year, prodName, prodCity, prodState);
                            if (operation == true)
@@ -76,15 +77,15 @@ public class Assignment8
                            break;
                        case 'C':  //Create a new movie arrangement
                            System.out.print("Please enter a new maximum number of movies:\n");
-                           maxStr = stdin.readLine().trim(); //read in the max number as a string
+                           maxStr = BoundedLineReader.readLine(stdin, 5_000_000).trim(); //read in the max number as a string
                            max = Integer.parseInt(maxStr);
                            arrange1 = new MovieArrangement(max);
                            break;
                        case 'D':  //Search by movie
                            System.out.print("Please enter movie title to search:\n");
-                           title = stdin.readLine().trim();
+                           title = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Please enter movie year to search:\n");
-                           yearStr = stdin.readLine().trim();
+                           yearStr = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            year = Integer.parseInt(yearStr);
                            operation2=arrange1.movieExists(title, year);
 
@@ -95,11 +96,11 @@ public class Assignment8
                            break;
                        case 'E':  //Search by production
                            System.out.print("Please enter the name of a production company to search:\n");
-                           prodName = stdin.readLine().trim();
+                           prodName = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Please enter the city of a production company to search:\n");
-                           prodCity = stdin.readLine().trim();
+                           prodCity = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Please enter the state of a production company to search:\n");
-                           prodState = stdin.readLine().trim();
+                           prodState = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            
                            operation2=arrange1.productionExists(prodName, prodCity, prodState);
                     
@@ -133,9 +134,9 @@ public class Assignment8
                            break;
                        case 'R':  //Remove by movie
                            System.out.print("Please enter movie title to remove:\n");
-                           title = stdin.readLine().trim();
+                           title = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            System.out.print("Please enter movie year to remove:\n");
-                           yearStr = stdin.readLine().trim();
+                           yearStr = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            year = Integer.parseInt(yearStr);
                            operation = arrange1.removeMovie(title, year);
                            if (operation == true)
@@ -150,7 +151,7 @@ public class Assignment8
                            break;
                        case 'U':  //Write Text to a File
                            System.out.print("Please enter a file name to write:\n");
-                           filename = stdin.readLine().trim();
+                           filename = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            String filein="";
 
                            try
@@ -159,7 +160,7 @@ public class Assignment8
                                 BufferedWriter bw = new BufferedWriter (fw);
                                 PrintWriter outFile = new PrintWriter (bw);
                                 System.out.print("Please enter a string to write in the file:\n");
-                                filein = stdin.readLine();
+                                filein = BoundedLineReader.readLine(stdin, 5_000_000);
                                 outFile.print(filein + "\n");
                                 outFile.close();
                                 System.out.println(filename+" was written");
@@ -172,17 +173,17 @@ public class Assignment8
                            break;
                        case 'V':  //Read Text from a File
                            System.out.print("Please enter a file name to read:\n");
-                           filename = stdin.readLine().trim();
+                           filename = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            String fileout="";
                            
                            try
                            {
                                 FileReader fr = new FileReader (filename);
                                 BufferedReader inFile = new BufferedReader (fr);
-                                fileout = inFile.readLine();
+                                fileout = BoundedLineReader.readLine(inFile, 5_000_000);
                                     System.out.println(filename+" was read");
                                     System.out.println("The first line of the file is:\n"+fileout);
-                                    fileout = inFile.readLine();
+                                    fileout = BoundedLineReader.readLine(inFile, 5_000_000);
                                  inFile.close();
                            }
                            catch (FileNotFoundException exception)
@@ -197,7 +198,7 @@ public class Assignment8
 
                         case 'W':  //Serialize MovieArrangement to a File
                            System.out.print("Please enter a file name to write:\n");
-                           filename = stdin.readLine().trim(); 
+                           filename = BoundedLineReader.readLine(stdin, 5_000_000).trim(); 
                            try
                                 { 
                                 //Saving of object in a file 
@@ -219,7 +220,7 @@ public class Assignment8
                            break;
                             case 'X':  //Deserialize MovieArrangement from a File
                            System.out.print("Please enter a file name to read:\n");
-                           filename = stdin.readLine().trim();
+                           filename = BoundedLineReader.readLine(stdin, 5_000_000).trim();
                            MovieArrangement mov2 = null; 
 
                                 // Deserialization 
